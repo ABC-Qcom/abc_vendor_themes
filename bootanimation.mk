@@ -1,7 +1,7 @@
 # Boot Animation
 scr_resolution := 1080x1920
 
-ifneq ($(filter berkeley,$(TARGET_PRODUCT)),)
+ifneq ($(filter berkeley chiron,$(TARGET_PRODUCT)),)
     scr_resolution := 1080x2160
 endif
 
